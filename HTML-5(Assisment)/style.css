@@ -1,0 +1,153 @@
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* background-color: #f3f3f3; */
+    }
+.main {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form {
+    /* margin: 50px; */
+    padding: 50px;
+    background-color: aqua;
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    display: flex;
+    /* justify-content: center; */
+    /* justify-items: center; */
+}
+
+.address {
+    height: auto;
+    width: auto ;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.add1 {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.add2 {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.add3 {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.phn {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mail {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-map {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 10px;
+}
+input {
+    width: 200px;
+    height: 25px;
+}
+button {
+    height: 30px;
+    width: 100px;
+    color: rgb(230, 226, 225);
+    background-color: red;
+    border: 0px;
+    border-radius: 5px;
+}
+.ad {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ad1 {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ad2 {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.mp {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.mp2 {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.fb {
+    height: auto;
+    width: auto;
+    color: white;
+    background-color: rgb(70, 70, 238);
+}
+.twiter {
+    height: auto;
+    width: auto;
+    color: white;
+    background-color: rgb(65, 65, 197);
+}
+.ii {
+    height: 30px;
+    width: 20px;
+    color: white;
+    background-color: rgb(94, 94, 144);
+}
+.bolt {
+    height: auto;
+    width: auto;
+    color: white;
+    background-color: rgb(2, 2, 8);
+}
